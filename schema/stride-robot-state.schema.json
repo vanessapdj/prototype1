@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ROAM minimal STRIDE Robot State profile",
+  "description": "Project-authored JSON Schema based on section 3.1.2 of the supplied STRIDE Handbook DRAFT dated 23 October 2026. Includes all fields marked Y; optional trajectories, paths, plans and load are outside this profile. Not an official STRIDE schema or certification.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "robotId",
+    "vendorId",
+    "taskId",
+    "timestamp",
+    "buildingId",
+    "floorLevel",
+    "orientation",
+    "locationPoint",
+    "operatingMode",
+    "operatingStates",
+    "batteryStatus"
+  ],
+  "properties": {
+    "robotId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "vendorId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "taskId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "buildingId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "floorLevel": {
+      "type": "string",
+      "minLength": 1
+    },
+    "orientation": {
+      "type": "number",
+      "description": "angleFromTrueNorth. The supplied draft does not state the unit; confirm before converting vendor headings."
+    },
+    "locationPoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ccsId",
+        "x",
+        "y",
+        "z"
+      ],
+      "properties": {
+        "ccsId": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "x": {
+          "type": "number",
+          "description": "Metres relative to the CCS origin."
+        },
+        "y": {
+          "type": "number",
+          "description": "Metres relative to the CCS origin."
+        },
+        "z": {
+          "type": "number",
+          "description": "Metres relative to the CCS origin."
+        }
+      }
+    },
+    "operatingMode": {
+      "type": "string",
+      "enum": [
+        "MODE_AUTO",
+        "MODE_SEMIAUTO",
+        "MODE_TELEOP",
+        "MODE_MANUAL",
+        "MODE_MAINTENANCE"
+      ]
+    },
+    "operatingStates": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "STOP_CATEGORY_0",
+          "STOP_CATEGORY_1",
+          "STOP_CATEGORY_2",
+          "PAUSED",
+          "LOST",
+          "BLOCKED",
+          "STOPPED",
+          "DOCKING",
+          "CHARGING",
+          "LOW_BATTERY",
+          "IDLE",
+          "PARKED",
+          "OFFLINE",
+          "WAIT_FOR_RESET",
+          "WAIT_FOR_EVENT",
+          "MAPPING",
+          "SLOWING",
+          "ACCELERATING",
+          "LEFT_TURN",
+          "RIGHT_TURN",
+          "REVERSE",
+          "FORWARD"
+        ]
+      }
+    },
+    "batteryStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "timestamp",
+        "batterySoc"
+      ],
+      "properties": {
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "batterySoc": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "batteryHealth": {
+          "type": "string",
+          "enum": [
+            "UNKNOWN",
+            "HEALTHY",
+            "OVERHEAT",
+            "DEAD",
+            "OVERVOLTAGE",
+            "FAILURE",
+            "COLD"
+          ]
+        },
+        "batteryChargingState": {
+          "type": "string",
+          "enum": [
+            "UNKNOWN",
+            "CHARGING",
+            "DISCHARGING",
+            "NOT_CHARGING",
+            "FULL"
+          ]
+        }
+      }
+    },
+    "linearVelocity": {
+      "type": "number",
+      "description": "Metres per second."
+    },
+    "angularVelocity": {
+      "type": "number",
+      "description": "Radians per second."
+    }
+  }
+}

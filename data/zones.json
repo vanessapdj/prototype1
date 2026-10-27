@@ -1,0 +1,5549 @@
+{
+  "dataSource": "simulation",
+  "zones": [
+    {
+      "zoneId": "SCH-001-COR-1",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "1",
+      "ccsId": "591787bc-b81b-522a-b00a-6ec78bc90c30",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-COR-2",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "2",
+      "ccsId": "f7818779-996a-5bb0-9009-aef5df2f9007",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-COR-3",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "3",
+      "ccsId": "1fd121c5-07d2-56bb-aa44-71bf72660c90",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-COR-4",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "4",
+      "ccsId": "d6f51856-1e9e-5daa-9fb2-c5bda147d29a",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-WC-1-1",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "1",
+      "ccsId": "591787bc-b81b-522a-b00a-6ec78bc90c30",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-WC-1-2",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "1",
+      "ccsId": "591787bc-b81b-522a-b00a-6ec78bc90c30",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-OFF-1",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "1",
+      "ccsId": "591787bc-b81b-522a-b00a-6ec78bc90c30",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-WC-2-1",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "2",
+      "ccsId": "f7818779-996a-5bb0-9009-aef5df2f9007",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-WC-2-2",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "2",
+      "ccsId": "f7818779-996a-5bb0-9009-aef5df2f9007",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-001-OFF-2",
+      "schoolId": "SCH-001",
+      "buildingId": "BLD-001",
+      "floorLevel": "2",
+      "ccsId": "f7818779-996a-5bb0-9009-aef5df2f9007",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-COR-1",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "1",
+      "ccsId": "aaf19c97-aa8a-5895-b018-bfcde10b46e4",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-COR-2",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "2",
+      "ccsId": "670283e7-54a5-514c-a50e-b1a7bdb0e124",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-COR-3",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "3",
+      "ccsId": "6a694429-a0d9-506d-9831-a5f91c42e44e",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-COR-4",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "4",
+      "ccsId": "0e8e1863-3c45-5b2d-9d0a-489785d6dcb3",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-COR-5",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "5",
+      "ccsId": "dc722084-301b-5cc0-a5a2-9cbd40530f24",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-WC-1-1",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "1",
+      "ccsId": "aaf19c97-aa8a-5895-b018-bfcde10b46e4",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-WC-1-2",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "1",
+      "ccsId": "aaf19c97-aa8a-5895-b018-bfcde10b46e4",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-OFF-1",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "1",
+      "ccsId": "aaf19c97-aa8a-5895-b018-bfcde10b46e4",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-WC-2-1",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "2",
+      "ccsId": "670283e7-54a5-514c-a50e-b1a7bdb0e124",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-WC-2-2",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "2",
+      "ccsId": "670283e7-54a5-514c-a50e-b1a7bdb0e124",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-002-OFF-2",
+      "schoolId": "SCH-002",
+      "buildingId": "BLD-002",
+      "floorLevel": "2",
+      "ccsId": "670283e7-54a5-514c-a50e-b1a7bdb0e124",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-COR-1",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "1",
+      "ccsId": "4bccd2a8-3bfe-5542-ba59-8fa07ad3bfee",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-COR-2",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "2",
+      "ccsId": "a49d16c9-787b-59f0-b9b9-b4c79467667e",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-COR-3",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "3",
+      "ccsId": "6429dfd3-a181-5c50-ba4b-0e130b5f513a",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-COR-4",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "4",
+      "ccsId": "9581c72d-a0d2-5670-bba1-8e21240a5dce",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-COR-5",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "5",
+      "ccsId": "9b640082-0497-5ff0-8ba3-5160951ee1f6",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-COR-6",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "6",
+      "ccsId": "10211cf6-b19c-5aab-bd49-272ca2b84859",
+      "name": "Level 6 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-WC-1-1",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "1",
+      "ccsId": "4bccd2a8-3bfe-5542-ba59-8fa07ad3bfee",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-WC-1-2",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "1",
+      "ccsId": "4bccd2a8-3bfe-5542-ba59-8fa07ad3bfee",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-OFF-1",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "1",
+      "ccsId": "4bccd2a8-3bfe-5542-ba59-8fa07ad3bfee",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-WC-2-1",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "2",
+      "ccsId": "a49d16c9-787b-59f0-b9b9-b4c79467667e",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-WC-2-2",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "2",
+      "ccsId": "a49d16c9-787b-59f0-b9b9-b4c79467667e",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-003-OFF-2",
+      "schoolId": "SCH-003",
+      "buildingId": "BLD-003",
+      "floorLevel": "2",
+      "ccsId": "a49d16c9-787b-59f0-b9b9-b4c79467667e",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-COR-1",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "1",
+      "ccsId": "18385086-68fb-5aba-85a4-2e858ba4d638",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-COR-2",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "2",
+      "ccsId": "9a8994d9-7280-56e6-8d35-4024601811c2",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-COR-3",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "3",
+      "ccsId": "5928a219-5293-5ac6-bbab-1fae75c236bd",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-COR-4",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "4",
+      "ccsId": "07e8e7a6-9864-5f94-840c-d8331bb8b138",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-WC-1-1",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "1",
+      "ccsId": "18385086-68fb-5aba-85a4-2e858ba4d638",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-WC-1-2",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "1",
+      "ccsId": "18385086-68fb-5aba-85a4-2e858ba4d638",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-OFF-1",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "1",
+      "ccsId": "18385086-68fb-5aba-85a4-2e858ba4d638",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-WC-2-1",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "2",
+      "ccsId": "9a8994d9-7280-56e6-8d35-4024601811c2",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-WC-2-2",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "2",
+      "ccsId": "9a8994d9-7280-56e6-8d35-4024601811c2",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-004-OFF-2",
+      "schoolId": "SCH-004",
+      "buildingId": "BLD-004",
+      "floorLevel": "2",
+      "ccsId": "9a8994d9-7280-56e6-8d35-4024601811c2",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-COR-1",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "1",
+      "ccsId": "fc326b85-8f34-5ae6-87f9-0c875da28eec",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-COR-2",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "2",
+      "ccsId": "2c81fafb-4a2e-5665-a6e2-2e57dbfc0dad",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-COR-3",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "3",
+      "ccsId": "f7e170f0-d838-537d-84e9-0f5c57dd3c3e",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-COR-4",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "4",
+      "ccsId": "682fc725-74f6-5fb6-b5d4-af32be447dad",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-COR-5",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "5",
+      "ccsId": "d017db3e-81c0-5530-9e48-d8dd9c388f19",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-WC-1-1",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "1",
+      "ccsId": "fc326b85-8f34-5ae6-87f9-0c875da28eec",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-WC-1-2",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "1",
+      "ccsId": "fc326b85-8f34-5ae6-87f9-0c875da28eec",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-OFF-1",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "1",
+      "ccsId": "fc326b85-8f34-5ae6-87f9-0c875da28eec",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-WC-2-1",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "2",
+      "ccsId": "2c81fafb-4a2e-5665-a6e2-2e57dbfc0dad",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-WC-2-2",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "2",
+      "ccsId": "2c81fafb-4a2e-5665-a6e2-2e57dbfc0dad",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-005-OFF-2",
+      "schoolId": "SCH-005",
+      "buildingId": "BLD-005",
+      "floorLevel": "2",
+      "ccsId": "2c81fafb-4a2e-5665-a6e2-2e57dbfc0dad",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-COR-1",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "1",
+      "ccsId": "5695bd15-98a8-582e-95d5-5360c000e26f",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-COR-2",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "2",
+      "ccsId": "efba7b55-9189-5665-8fd2-bc599ddf98f2",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-COR-3",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "3",
+      "ccsId": "9c594d4c-44b0-582d-b62a-29fe95b39404",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-COR-4",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "4",
+      "ccsId": "5df9852c-9fec-51fa-b290-ea099e32c9db",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-COR-5",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "5",
+      "ccsId": "33ccc328-8602-535b-9252-e5331bd0cd38",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-COR-6",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "6",
+      "ccsId": "cd2aa04c-2e83-5693-8377-7c1c3e6182d2",
+      "name": "Level 6 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-WC-1-1",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "1",
+      "ccsId": "5695bd15-98a8-582e-95d5-5360c000e26f",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-WC-1-2",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "1",
+      "ccsId": "5695bd15-98a8-582e-95d5-5360c000e26f",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-OFF-1",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "1",
+      "ccsId": "5695bd15-98a8-582e-95d5-5360c000e26f",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-WC-2-1",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "2",
+      "ccsId": "efba7b55-9189-5665-8fd2-bc599ddf98f2",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-WC-2-2",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "2",
+      "ccsId": "efba7b55-9189-5665-8fd2-bc599ddf98f2",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-006-OFF-2",
+      "schoolId": "SCH-006",
+      "buildingId": "BLD-006",
+      "floorLevel": "2",
+      "ccsId": "efba7b55-9189-5665-8fd2-bc599ddf98f2",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-COR-1",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "1",
+      "ccsId": "611219d5-9ce3-50a3-adae-eb8ffc9fc873",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-COR-2",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "2",
+      "ccsId": "22e4f7fc-ddf5-5242-8e43-0470cc258cff",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-COR-3",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "3",
+      "ccsId": "03e882e2-6a04-5932-9ed5-f677d32bd403",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-COR-4",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "4",
+      "ccsId": "ea9ede4c-c646-5362-8d38-c8c203667449",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-WC-1-1",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "1",
+      "ccsId": "611219d5-9ce3-50a3-adae-eb8ffc9fc873",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-WC-1-2",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "1",
+      "ccsId": "611219d5-9ce3-50a3-adae-eb8ffc9fc873",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-OFF-1",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "1",
+      "ccsId": "611219d5-9ce3-50a3-adae-eb8ffc9fc873",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-WC-2-1",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "2",
+      "ccsId": "22e4f7fc-ddf5-5242-8e43-0470cc258cff",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-WC-2-2",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "2",
+      "ccsId": "22e4f7fc-ddf5-5242-8e43-0470cc258cff",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-007-OFF-2",
+      "schoolId": "SCH-007",
+      "buildingId": "BLD-007",
+      "floorLevel": "2",
+      "ccsId": "22e4f7fc-ddf5-5242-8e43-0470cc258cff",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-COR-1",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "1",
+      "ccsId": "b0ee1b0a-7266-5db7-ae72-3b2e4decc903",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-COR-2",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "2",
+      "ccsId": "a95c955a-e09f-510e-94d3-27dfed45b044",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-COR-3",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "3",
+      "ccsId": "2ada9b7f-b5c3-54d9-bb60-6126b10f6b21",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-COR-4",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "4",
+      "ccsId": "2210f541-5171-5168-bccd-9bc865a2937c",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-COR-5",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "5",
+      "ccsId": "aec609ba-d561-5d5d-b3b3-dc6d8ef65d7f",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-WC-1-1",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "1",
+      "ccsId": "b0ee1b0a-7266-5db7-ae72-3b2e4decc903",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-WC-1-2",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "1",
+      "ccsId": "b0ee1b0a-7266-5db7-ae72-3b2e4decc903",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-OFF-1",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "1",
+      "ccsId": "b0ee1b0a-7266-5db7-ae72-3b2e4decc903",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-WC-2-1",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "2",
+      "ccsId": "a95c955a-e09f-510e-94d3-27dfed45b044",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-WC-2-2",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "2",
+      "ccsId": "a95c955a-e09f-510e-94d3-27dfed45b044",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-008-OFF-2",
+      "schoolId": "SCH-008",
+      "buildingId": "BLD-008",
+      "floorLevel": "2",
+      "ccsId": "a95c955a-e09f-510e-94d3-27dfed45b044",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-COR-1",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "1",
+      "ccsId": "831c8290-3321-5d0e-98dd-997bb92d5762",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-COR-2",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "2",
+      "ccsId": "f6d6a376-631f-54c1-92a4-f71b84cbbd35",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-COR-3",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "3",
+      "ccsId": "a935a494-5ee1-5a2b-9c96-ff4abdf411fd",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-COR-4",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "4",
+      "ccsId": "6c4bbd2c-cc70-5259-88ce-b91d830e5095",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-COR-5",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "5",
+      "ccsId": "74bbbe67-c242-5cf4-885d-47c7f75cc1de",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-COR-6",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "6",
+      "ccsId": "2ef9c858-d3d3-57ba-a8ac-c406319f5f7e",
+      "name": "Level 6 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-WC-1-1",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "1",
+      "ccsId": "831c8290-3321-5d0e-98dd-997bb92d5762",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-WC-1-2",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "1",
+      "ccsId": "831c8290-3321-5d0e-98dd-997bb92d5762",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-OFF-1",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "1",
+      "ccsId": "831c8290-3321-5d0e-98dd-997bb92d5762",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-WC-2-1",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "2",
+      "ccsId": "f6d6a376-631f-54c1-92a4-f71b84cbbd35",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-WC-2-2",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "2",
+      "ccsId": "f6d6a376-631f-54c1-92a4-f71b84cbbd35",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-009-OFF-2",
+      "schoolId": "SCH-009",
+      "buildingId": "BLD-009",
+      "floorLevel": "2",
+      "ccsId": "f6d6a376-631f-54c1-92a4-f71b84cbbd35",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-COR-1",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "1",
+      "ccsId": "1b0c534f-2e53-5bd0-8368-d0d041f277a7",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-COR-2",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "2",
+      "ccsId": "f91edea8-27be-518d-8f22-870e6bbc5a0b",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-COR-3",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "3",
+      "ccsId": "9f90584a-1919-53bc-97d8-51bfadd68af3",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-COR-4",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "4",
+      "ccsId": "083d24be-d8b6-5d47-9d56-793c2b19fd59",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-WC-1-1",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "1",
+      "ccsId": "1b0c534f-2e53-5bd0-8368-d0d041f277a7",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-WC-1-2",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "1",
+      "ccsId": "1b0c534f-2e53-5bd0-8368-d0d041f277a7",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-OFF-1",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "1",
+      "ccsId": "1b0c534f-2e53-5bd0-8368-d0d041f277a7",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-WC-2-1",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "2",
+      "ccsId": "f91edea8-27be-518d-8f22-870e6bbc5a0b",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-WC-2-2",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "2",
+      "ccsId": "f91edea8-27be-518d-8f22-870e6bbc5a0b",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-010-OFF-2",
+      "schoolId": "SCH-010",
+      "buildingId": "BLD-010",
+      "floorLevel": "2",
+      "ccsId": "f91edea8-27be-518d-8f22-870e6bbc5a0b",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-COR-1",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "1",
+      "ccsId": "d7b78762-6a97-5986-a2f1-32721b9c53cd",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-COR-2",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "2",
+      "ccsId": "c23a7043-d7d9-5da6-aa3d-4ca997659c30",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-COR-3",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "3",
+      "ccsId": "9eeb6fdc-2215-528b-9573-27ad4aeef548",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-COR-4",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "4",
+      "ccsId": "ef34f7fc-5fd4-51cd-8e64-19b33da44785",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-COR-5",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "5",
+      "ccsId": "f1008323-9c4f-50bb-a264-37c475f82fe9",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-WC-1-1",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "1",
+      "ccsId": "d7b78762-6a97-5986-a2f1-32721b9c53cd",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-WC-1-2",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "1",
+      "ccsId": "d7b78762-6a97-5986-a2f1-32721b9c53cd",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-OFF-1",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "1",
+      "ccsId": "d7b78762-6a97-5986-a2f1-32721b9c53cd",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-WC-2-1",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "2",
+      "ccsId": "c23a7043-d7d9-5da6-aa3d-4ca997659c30",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-WC-2-2",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "2",
+      "ccsId": "c23a7043-d7d9-5da6-aa3d-4ca997659c30",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-011-OFF-2",
+      "schoolId": "SCH-011",
+      "buildingId": "BLD-011",
+      "floorLevel": "2",
+      "ccsId": "c23a7043-d7d9-5da6-aa3d-4ca997659c30",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-COR-1",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "1",
+      "ccsId": "f4f7b0d5-0160-5cdc-bd6a-415217f8dd25",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-COR-2",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "2",
+      "ccsId": "75fbe126-3d00-56e9-873a-96a5d3b0082d",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-COR-3",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "3",
+      "ccsId": "3558a589-cda4-52bd-b82b-20385b543fd4",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-COR-4",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "4",
+      "ccsId": "c36a0684-9075-54ac-a375-bb8f2f5e76c9",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-COR-5",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "5",
+      "ccsId": "60655bbd-fd66-510a-85b9-79b95e31a9a4",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-COR-6",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "6",
+      "ccsId": "aeb2c7de-844f-5e3f-bcbd-fbca9e3ee314",
+      "name": "Level 6 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-WC-1-1",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "1",
+      "ccsId": "f4f7b0d5-0160-5cdc-bd6a-415217f8dd25",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-WC-1-2",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "1",
+      "ccsId": "f4f7b0d5-0160-5cdc-bd6a-415217f8dd25",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-OFF-1",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "1",
+      "ccsId": "f4f7b0d5-0160-5cdc-bd6a-415217f8dd25",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-WC-2-1",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "2",
+      "ccsId": "75fbe126-3d00-56e9-873a-96a5d3b0082d",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-WC-2-2",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "2",
+      "ccsId": "75fbe126-3d00-56e9-873a-96a5d3b0082d",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-012-OFF-2",
+      "schoolId": "SCH-012",
+      "buildingId": "BLD-012",
+      "floorLevel": "2",
+      "ccsId": "75fbe126-3d00-56e9-873a-96a5d3b0082d",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-COR-1",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "1",
+      "ccsId": "e8311d28-39a4-536d-adb6-3694a39af310",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-COR-2",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "2",
+      "ccsId": "b6e5fccf-f9d8-59f9-87fe-828fc20734be",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-COR-3",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "3",
+      "ccsId": "0e63c92e-4f5b-5266-a6c6-2b7858fa5ed6",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-COR-4",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "4",
+      "ccsId": "27a83519-5ecb-55cd-b0c8-51445fd6c1db",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-WC-1-1",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "1",
+      "ccsId": "e8311d28-39a4-536d-adb6-3694a39af310",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-WC-1-2",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "1",
+      "ccsId": "e8311d28-39a4-536d-adb6-3694a39af310",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-OFF-1",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "1",
+      "ccsId": "e8311d28-39a4-536d-adb6-3694a39af310",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-WC-2-1",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "2",
+      "ccsId": "b6e5fccf-f9d8-59f9-87fe-828fc20734be",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-WC-2-2",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "2",
+      "ccsId": "b6e5fccf-f9d8-59f9-87fe-828fc20734be",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-013-OFF-2",
+      "schoolId": "SCH-013",
+      "buildingId": "BLD-013",
+      "floorLevel": "2",
+      "ccsId": "b6e5fccf-f9d8-59f9-87fe-828fc20734be",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-COR-1",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "1",
+      "ccsId": "52a3151e-2977-54b3-badf-043c512cf1ca",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-COR-2",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "2",
+      "ccsId": "8388ca13-e127-56e2-9510-9eb73abbd08b",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-COR-3",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "3",
+      "ccsId": "d15b2984-96f5-5fc8-a5f1-6508b74500b7",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-COR-4",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "4",
+      "ccsId": "e8b814d0-ef8a-594f-acd1-e7d79834f2e7",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-COR-5",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "5",
+      "ccsId": "4915a074-380f-5fb4-944a-ea3d8ba42665",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-WC-1-1",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "1",
+      "ccsId": "52a3151e-2977-54b3-badf-043c512cf1ca",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-WC-1-2",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "1",
+      "ccsId": "52a3151e-2977-54b3-badf-043c512cf1ca",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-OFF-1",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "1",
+      "ccsId": "52a3151e-2977-54b3-badf-043c512cf1ca",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-WC-2-1",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "2",
+      "ccsId": "8388ca13-e127-56e2-9510-9eb73abbd08b",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-WC-2-2",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "2",
+      "ccsId": "8388ca13-e127-56e2-9510-9eb73abbd08b",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-014-OFF-2",
+      "schoolId": "SCH-014",
+      "buildingId": "BLD-014",
+      "floorLevel": "2",
+      "ccsId": "8388ca13-e127-56e2-9510-9eb73abbd08b",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-COR-1",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "1",
+      "ccsId": "4230e042-2603-5076-b5cc-1cb084f0bc8e",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-COR-2",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "2",
+      "ccsId": "52312c89-d8c1-5028-97b9-b8427f2d338c",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-COR-3",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "3",
+      "ccsId": "93f597e0-a24b-5983-a3ad-24aa4745d285",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-COR-4",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "4",
+      "ccsId": "8e24434c-47cd-5f5c-bb16-3bf68b996f3a",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-COR-5",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "5",
+      "ccsId": "d2a0a83f-7bd3-55d4-b157-14d801b0322b",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-COR-6",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "6",
+      "ccsId": "8184e814-45a1-5eb9-a560-906a58366613",
+      "name": "Level 6 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-WC-1-1",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "1",
+      "ccsId": "4230e042-2603-5076-b5cc-1cb084f0bc8e",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-WC-1-2",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "1",
+      "ccsId": "4230e042-2603-5076-b5cc-1cb084f0bc8e",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-OFF-1",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "1",
+      "ccsId": "4230e042-2603-5076-b5cc-1cb084f0bc8e",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-WC-2-1",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "2",
+      "ccsId": "52312c89-d8c1-5028-97b9-b8427f2d338c",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-WC-2-2",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "2",
+      "ccsId": "52312c89-d8c1-5028-97b9-b8427f2d338c",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-015-OFF-2",
+      "schoolId": "SCH-015",
+      "buildingId": "BLD-015",
+      "floorLevel": "2",
+      "ccsId": "52312c89-d8c1-5028-97b9-b8427f2d338c",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-COR-1",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "1",
+      "ccsId": "47ea70a4-8a9a-559e-8295-2c09ae93ba07",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-COR-2",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "2",
+      "ccsId": "3bc82a49-2719-594f-87b6-c127b7f72373",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-COR-3",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "3",
+      "ccsId": "0ca936c1-21f6-5ff5-988f-5585f7e6acc3",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-COR-4",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "4",
+      "ccsId": "09f14451-1081-5fa0-953b-f0a3f7637eed",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-WC-1-1",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "1",
+      "ccsId": "47ea70a4-8a9a-559e-8295-2c09ae93ba07",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-WC-1-2",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "1",
+      "ccsId": "47ea70a4-8a9a-559e-8295-2c09ae93ba07",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-OFF-1",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "1",
+      "ccsId": "47ea70a4-8a9a-559e-8295-2c09ae93ba07",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-WC-2-1",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "2",
+      "ccsId": "3bc82a49-2719-594f-87b6-c127b7f72373",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-WC-2-2",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "2",
+      "ccsId": "3bc82a49-2719-594f-87b6-c127b7f72373",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-016-OFF-2",
+      "schoolId": "SCH-016",
+      "buildingId": "BLD-016",
+      "floorLevel": "2",
+      "ccsId": "3bc82a49-2719-594f-87b6-c127b7f72373",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-COR-1",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "1",
+      "ccsId": "1a974628-6569-5dce-910a-db9368a9612c",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-COR-2",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "2",
+      "ccsId": "df860a44-79dd-583b-ae21-a4cac5678161",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-COR-3",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "3",
+      "ccsId": "c35246f8-475a-5686-932e-d898f794d637",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-COR-4",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "4",
+      "ccsId": "5efea0ac-ad8b-505c-be77-9b9cb7552080",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-COR-5",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "5",
+      "ccsId": "d7f09217-303a-5380-88d9-06c4b4a67621",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-WC-1-1",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "1",
+      "ccsId": "1a974628-6569-5dce-910a-db9368a9612c",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-WC-1-2",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "1",
+      "ccsId": "1a974628-6569-5dce-910a-db9368a9612c",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-OFF-1",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "1",
+      "ccsId": "1a974628-6569-5dce-910a-db9368a9612c",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-WC-2-1",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "2",
+      "ccsId": "df860a44-79dd-583b-ae21-a4cac5678161",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-WC-2-2",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "2",
+      "ccsId": "df860a44-79dd-583b-ae21-a4cac5678161",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-017-OFF-2",
+      "schoolId": "SCH-017",
+      "buildingId": "BLD-017",
+      "floorLevel": "2",
+      "ccsId": "df860a44-79dd-583b-ae21-a4cac5678161",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-COR-1",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "1",
+      "ccsId": "d527ad09-0fa0-52f3-9dfc-a1caaad4134c",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-COR-2",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "2",
+      "ccsId": "857385ef-f997-557e-9939-9d7c8c41f701",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-COR-3",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "3",
+      "ccsId": "abbfd2be-5d05-5a70-bc14-7cf95223d3d8",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-COR-4",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "4",
+      "ccsId": "9c232b54-eda5-573c-ba65-2914f0cd2262",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-COR-5",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "5",
+      "ccsId": "45314459-2c9e-525d-9b8c-728383340d45",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-COR-6",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "6",
+      "ccsId": "77722a1e-0048-53ef-9cf9-f7bd9889bd0e",
+      "name": "Level 6 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-WC-1-1",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "1",
+      "ccsId": "d527ad09-0fa0-52f3-9dfc-a1caaad4134c",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-WC-1-2",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "1",
+      "ccsId": "d527ad09-0fa0-52f3-9dfc-a1caaad4134c",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-OFF-1",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "1",
+      "ccsId": "d527ad09-0fa0-52f3-9dfc-a1caaad4134c",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-WC-2-1",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "2",
+      "ccsId": "857385ef-f997-557e-9939-9d7c8c41f701",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-WC-2-2",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "2",
+      "ccsId": "857385ef-f997-557e-9939-9d7c8c41f701",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-018-OFF-2",
+      "schoolId": "SCH-018",
+      "buildingId": "BLD-018",
+      "floorLevel": "2",
+      "ccsId": "857385ef-f997-557e-9939-9d7c8c41f701",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-COR-1",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "1",
+      "ccsId": "05905b50-5298-572d-af7d-e19666a3a113",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-COR-2",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "2",
+      "ccsId": "a8ed46e8-f8b4-5883-b365-c7ef518b6875",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-COR-3",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "3",
+      "ccsId": "f0672ba6-81dc-53ea-bc63-7474dfceb92b",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-COR-4",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "4",
+      "ccsId": "f1697345-8010-5372-bf0d-11b94df887aa",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-WC-1-1",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "1",
+      "ccsId": "05905b50-5298-572d-af7d-e19666a3a113",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-WC-1-2",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "1",
+      "ccsId": "05905b50-5298-572d-af7d-e19666a3a113",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-OFF-1",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "1",
+      "ccsId": "05905b50-5298-572d-af7d-e19666a3a113",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-WC-2-1",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "2",
+      "ccsId": "a8ed46e8-f8b4-5883-b365-c7ef518b6875",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-WC-2-2",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "2",
+      "ccsId": "a8ed46e8-f8b4-5883-b365-c7ef518b6875",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-019-OFF-2",
+      "schoolId": "SCH-019",
+      "buildingId": "BLD-019",
+      "floorLevel": "2",
+      "ccsId": "a8ed46e8-f8b4-5883-b365-c7ef518b6875",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-COR-1",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "1",
+      "ccsId": "0a0595c2-199b-50b8-9195-03a95eeb787f",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-COR-2",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "2",
+      "ccsId": "d758ad12-9c19-5131-9b1a-6a0cc34f4457",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-COR-3",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "3",
+      "ccsId": "7daaa00d-0ce6-5038-aee0-3e5e450f428e",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-COR-4",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "4",
+      "ccsId": "c1d081c5-23c9-5271-84ef-bb5e9c686c7c",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-COR-5",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "5",
+      "ccsId": "c9e4d603-ea3f-5188-834d-9d443776088c",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-WC-1-1",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "1",
+      "ccsId": "0a0595c2-199b-50b8-9195-03a95eeb787f",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-WC-1-2",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "1",
+      "ccsId": "0a0595c2-199b-50b8-9195-03a95eeb787f",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-OFF-1",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "1",
+      "ccsId": "0a0595c2-199b-50b8-9195-03a95eeb787f",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-WC-2-1",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "2",
+      "ccsId": "d758ad12-9c19-5131-9b1a-6a0cc34f4457",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-WC-2-2",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "2",
+      "ccsId": "d758ad12-9c19-5131-9b1a-6a0cc34f4457",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-020-OFF-2",
+      "schoolId": "SCH-020",
+      "buildingId": "BLD-020",
+      "floorLevel": "2",
+      "ccsId": "d758ad12-9c19-5131-9b1a-6a0cc34f4457",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-COR-1",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "1",
+      "ccsId": "64869389-0ee2-5d4d-b18c-897baa290009",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-COR-2",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "2",
+      "ccsId": "d9564360-208a-50db-99e0-83de52c36e8a",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-COR-3",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "3",
+      "ccsId": "94562471-2e24-5c6b-a122-fa8758a5d6b9",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-COR-4",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "4",
+      "ccsId": "d3a84eb1-a59d-5a6e-bd23-41016e471361",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-COR-5",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "5",
+      "ccsId": "8b303e26-d757-52e5-a12b-93f26cbb4781",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-COR-6",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "6",
+      "ccsId": "59c3b874-37b4-55f8-81b4-b02c0b34f193",
+      "name": "Level 6 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-WC-1-1",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "1",
+      "ccsId": "64869389-0ee2-5d4d-b18c-897baa290009",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-WC-1-2",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "1",
+      "ccsId": "64869389-0ee2-5d4d-b18c-897baa290009",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-OFF-1",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "1",
+      "ccsId": "64869389-0ee2-5d4d-b18c-897baa290009",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-WC-2-1",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "2",
+      "ccsId": "d9564360-208a-50db-99e0-83de52c36e8a",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-WC-2-2",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "2",
+      "ccsId": "d9564360-208a-50db-99e0-83de52c36e8a",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-021-OFF-2",
+      "schoolId": "SCH-021",
+      "buildingId": "BLD-021",
+      "floorLevel": "2",
+      "ccsId": "d9564360-208a-50db-99e0-83de52c36e8a",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-COR-1",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "1",
+      "ccsId": "bffec30d-7260-58b1-8c87-7e37719fa519",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-COR-2",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "2",
+      "ccsId": "d32438eb-36c8-518b-83ba-9daebfb6b589",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-COR-3",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "3",
+      "ccsId": "5a79bff9-ff60-50dc-8a17-5b1ed88cf82d",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-COR-4",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "4",
+      "ccsId": "c7fade58-98f8-54bc-891d-8f11843c7fe8",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-WC-1-1",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "1",
+      "ccsId": "bffec30d-7260-58b1-8c87-7e37719fa519",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-WC-1-2",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "1",
+      "ccsId": "bffec30d-7260-58b1-8c87-7e37719fa519",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-OFF-1",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "1",
+      "ccsId": "bffec30d-7260-58b1-8c87-7e37719fa519",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-WC-2-1",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "2",
+      "ccsId": "d32438eb-36c8-518b-83ba-9daebfb6b589",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-WC-2-2",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "2",
+      "ccsId": "d32438eb-36c8-518b-83ba-9daebfb6b589",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-022-OFF-2",
+      "schoolId": "SCH-022",
+      "buildingId": "BLD-022",
+      "floorLevel": "2",
+      "ccsId": "d32438eb-36c8-518b-83ba-9daebfb6b589",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-COR-1",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "1",
+      "ccsId": "fda2b38b-153d-5874-8dbf-fd8c5f73b4c3",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-COR-2",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "2",
+      "ccsId": "1a9faf49-b229-59b5-8a9a-bb00f89ea9eb",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-COR-3",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "3",
+      "ccsId": "889e58b6-9994-567f-b4b5-8811c1944a62",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-COR-4",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "4",
+      "ccsId": "3de1d907-43a3-5596-b743-359edc404039",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-COR-5",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "5",
+      "ccsId": "657fc729-2a00-5244-926e-9fb4c783f731",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-WC-1-1",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "1",
+      "ccsId": "fda2b38b-153d-5874-8dbf-fd8c5f73b4c3",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-WC-1-2",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "1",
+      "ccsId": "fda2b38b-153d-5874-8dbf-fd8c5f73b4c3",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-OFF-1",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "1",
+      "ccsId": "fda2b38b-153d-5874-8dbf-fd8c5f73b4c3",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 180,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-WC-2-1",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "2",
+      "ccsId": "1a9faf49-b229-59b5-8a9a-bb00f89ea9eb",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 45,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-WC-2-2",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "2",
+      "ccsId": "1a9faf49-b229-59b5-8a9a-bb00f89ea9eb",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-023-OFF-2",
+      "schoolId": "SCH-023",
+      "buildingId": "BLD-023",
+      "floorLevel": "2",
+      "ccsId": "1a9faf49-b229-59b5-8a9a-bb00f89ea9eb",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-COR-1",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "1",
+      "ccsId": "2d8b79da-f4da-5a56-a175-500282475e9b",
+      "name": "Level 1 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-COR-2",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "2",
+      "ccsId": "98d9150c-76f5-5f28-890e-f9756a885206",
+      "name": "Level 2 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-COR-3",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "3",
+      "ccsId": "4159bbd2-bed9-59b3-9944-98bc9b13d424",
+      "name": "Level 3 corridor",
+      "kind": "corridor",
+      "areaSqm": 495,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-COR-4",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "4",
+      "ccsId": "24796fca-5abc-5957-b7f4-3d77a7c1d652",
+      "name": "Level 4 corridor",
+      "kind": "corridor",
+      "areaSqm": 360,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-COR-5",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "5",
+      "ccsId": "0c3a4586-5365-5ef0-bb66-75f003301fc9",
+      "name": "Level 5 corridor",
+      "kind": "corridor",
+      "areaSqm": 405,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-COR-6",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "6",
+      "ccsId": "aee61868-c233-51bb-801a-24c90d203ff7",
+      "name": "Level 6 corridor",
+      "kind": "corridor",
+      "areaSqm": 450,
+      "routeStart": {
+        "x": 2.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 32.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-WC-1-1",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "1",
+      "ccsId": "2d8b79da-f4da-5a56-a175-500282475e9b",
+      "name": "Level 1 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-WC-1-2",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "1",
+      "ccsId": "2d8b79da-f4da-5a56-a175-500282475e9b",
+      "name": "Level 1 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-OFF-1",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "1",
+      "ccsId": "2d8b79da-f4da-5a56-a175-500282475e9b",
+      "name": "General office",
+      "kind": "office",
+      "areaSqm": 120,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-WC-2-1",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "2",
+      "ccsId": "98d9150c-76f5-5f28-890e-f9756a885206",
+      "name": "Level 2 toilet block 1",
+      "kind": "toilet",
+      "areaSqm": 35,
+      "routeStart": {
+        "x": 4.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 9.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-WC-2-2",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "2",
+      "ccsId": "98d9150c-76f5-5f28-890e-f9756a885206",
+      "name": "Level 2 toilet block 2",
+      "kind": "toilet",
+      "areaSqm": 40,
+      "routeStart": {
+        "x": 12.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 17.0,
+        "y": 14.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    },
+    {
+      "zoneId": "SCH-024-OFF-2",
+      "schoolId": "SCH-024",
+      "buildingId": "BLD-024",
+      "floorLevel": "2",
+      "ccsId": "98d9150c-76f5-5f28-890e-f9756a885206",
+      "name": "Staff room",
+      "kind": "office",
+      "areaSqm": 150,
+      "routeStart": {
+        "x": 3.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "routeEnd": {
+        "x": 15.0,
+        "y": 25.0,
+        "z": 0.0
+      },
+      "source": "synthetic_geometry"
+    }
+  ]
+}

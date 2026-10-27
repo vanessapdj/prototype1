@@ -1,0 +1,24 @@
+{
+  "version": "live-hq-0.2",
+  "externalAIServiceRequired": false,
+  "decisionProvider": "editable structured rules",
+  "schoolControllers": 24,
+  "robots": 96,
+  "engineTestsPassed": 12,
+  "configurationTestsPassed": 12,
+  "dashboardCodeIntegrationPassed": true,
+  "editorCodeIntegrationPassed": true,
+  "strideLiveSampleStatesValidated": 1056,
+  "rulesAndPrinciplesJSONSchemasValidated": true,
+  "browserVisualQACompleted": false,
+  "notes": [
+    "No browser preview attempted after the prior permission decline.",
+    "Principle prose does not automatically become executable behavior.",
+    "Policies apply to future decisions; schedule and staff changes are queued for the next simulated day or an explicit new run.",
+    "GitHub upload/publication was not performed."
+  ],
+  "optionalAIProvider": "Gemini visitor-owned key, manual advisory only",
+  "geminiAdapterTestsPassed": 10,
+  "connectionScreenCodeIntegrationPassed": true,
+  "liveGeminiAPIRequestVerified": false
+}

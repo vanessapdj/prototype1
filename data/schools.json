@@ -1,0 +1,1037 @@
+{
+  "dataSource": "simulation",
+  "schools": [
+    {
+      "schoolId": "SCH-001",
+      "name": "Simulation School 01",
+      "buildingId": "BLD-001",
+      "floorCount": 4,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-001",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "operatorIds": [
+        "SCH-001-OP-1",
+        "SCH-001-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-001-COR-1",
+        "SCH-001-COR-2",
+        "SCH-001-COR-3",
+        "SCH-001-COR-4",
+        "SCH-001-WC-1-1",
+        "SCH-001-WC-1-2",
+        "SCH-001-OFF-1",
+        "SCH-001-WC-2-1",
+        "SCH-001-WC-2-2",
+        "SCH-001-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:00",
+        "siteVacantFrom": "19:30",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-002",
+      "name": "Simulation School 02",
+      "buildingId": "BLD-002",
+      "floorCount": 5,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-002",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "operatorIds": [
+        "SCH-002-OP-1",
+        "SCH-002-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-002-COR-1",
+        "SCH-002-COR-2",
+        "SCH-002-COR-3",
+        "SCH-002-COR-4",
+        "SCH-002-COR-5",
+        "SCH-002-WC-1-1",
+        "SCH-002-WC-1-2",
+        "SCH-002-OFF-1",
+        "SCH-002-WC-2-1",
+        "SCH-002-WC-2-2",
+        "SCH-002-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:15",
+        "siteVacantFrom": "19:45",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-003",
+      "name": "Simulation School 03",
+      "buildingId": "BLD-003",
+      "floorCount": 6,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-003",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "operatorIds": [
+        "SCH-003-OP-1",
+        "SCH-003-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-003-COR-1",
+        "SCH-003-COR-2",
+        "SCH-003-COR-3",
+        "SCH-003-COR-4",
+        "SCH-003-COR-5",
+        "SCH-003-COR-6",
+        "SCH-003-WC-1-1",
+        "SCH-003-WC-1-2",
+        "SCH-003-OFF-1",
+        "SCH-003-WC-2-1",
+        "SCH-003-WC-2-2",
+        "SCH-003-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:30",
+        "siteVacantFrom": "20:00",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-004",
+      "name": "Simulation School 04",
+      "buildingId": "BLD-004",
+      "floorCount": 4,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-004",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "operatorIds": [
+        "SCH-004-OP-1",
+        "SCH-004-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-004-COR-1",
+        "SCH-004-COR-2",
+        "SCH-004-COR-3",
+        "SCH-004-COR-4",
+        "SCH-004-WC-1-1",
+        "SCH-004-WC-1-2",
+        "SCH-004-OFF-1",
+        "SCH-004-WC-2-1",
+        "SCH-004-WC-2-2",
+        "SCH-004-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:00",
+        "siteVacantFrom": "19:30",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-005",
+      "name": "Simulation School 05",
+      "buildingId": "BLD-005",
+      "floorCount": 5,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-005",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "operatorIds": [
+        "SCH-005-OP-1",
+        "SCH-005-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-005-COR-1",
+        "SCH-005-COR-2",
+        "SCH-005-COR-3",
+        "SCH-005-COR-4",
+        "SCH-005-COR-5",
+        "SCH-005-WC-1-1",
+        "SCH-005-WC-1-2",
+        "SCH-005-OFF-1",
+        "SCH-005-WC-2-1",
+        "SCH-005-WC-2-2",
+        "SCH-005-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:15",
+        "siteVacantFrom": "19:45",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-006",
+      "name": "Simulation School 06",
+      "buildingId": "BLD-006",
+      "floorCount": 6,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-006",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "operatorIds": [
+        "SCH-006-OP-1",
+        "SCH-006-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-006-COR-1",
+        "SCH-006-COR-2",
+        "SCH-006-COR-3",
+        "SCH-006-COR-4",
+        "SCH-006-COR-5",
+        "SCH-006-COR-6",
+        "SCH-006-WC-1-1",
+        "SCH-006-WC-1-2",
+        "SCH-006-OFF-1",
+        "SCH-006-WC-2-1",
+        "SCH-006-WC-2-2",
+        "SCH-006-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:30",
+        "siteVacantFrom": "20:00",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-007",
+      "name": "Simulation School 07",
+      "buildingId": "BLD-007",
+      "floorCount": 4,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-007",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "operatorIds": [
+        "SCH-007-OP-1",
+        "SCH-007-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-007-COR-1",
+        "SCH-007-COR-2",
+        "SCH-007-COR-3",
+        "SCH-007-COR-4",
+        "SCH-007-WC-1-1",
+        "SCH-007-WC-1-2",
+        "SCH-007-OFF-1",
+        "SCH-007-WC-2-1",
+        "SCH-007-WC-2-2",
+        "SCH-007-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:00",
+        "siteVacantFrom": "19:30",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-008",
+      "name": "Simulation School 08",
+      "buildingId": "BLD-008",
+      "floorCount": 5,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-008",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "operatorIds": [
+        "SCH-008-OP-1",
+        "SCH-008-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-008-COR-1",
+        "SCH-008-COR-2",
+        "SCH-008-COR-3",
+        "SCH-008-COR-4",
+        "SCH-008-COR-5",
+        "SCH-008-WC-1-1",
+        "SCH-008-WC-1-2",
+        "SCH-008-OFF-1",
+        "SCH-008-WC-2-1",
+        "SCH-008-WC-2-2",
+        "SCH-008-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:15",
+        "siteVacantFrom": "19:45",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-009",
+      "name": "Simulation School 09",
+      "buildingId": "BLD-009",
+      "floorCount": 6,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-009",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "operatorIds": [
+        "SCH-009-OP-1",
+        "SCH-009-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-009-COR-1",
+        "SCH-009-COR-2",
+        "SCH-009-COR-3",
+        "SCH-009-COR-4",
+        "SCH-009-COR-5",
+        "SCH-009-COR-6",
+        "SCH-009-WC-1-1",
+        "SCH-009-WC-1-2",
+        "SCH-009-OFF-1",
+        "SCH-009-WC-2-1",
+        "SCH-009-WC-2-2",
+        "SCH-009-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:30",
+        "siteVacantFrom": "20:00",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-010",
+      "name": "Simulation School 10",
+      "buildingId": "BLD-010",
+      "floorCount": 4,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-010",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "operatorIds": [
+        "SCH-010-OP-1",
+        "SCH-010-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-010-COR-1",
+        "SCH-010-COR-2",
+        "SCH-010-COR-3",
+        "SCH-010-COR-4",
+        "SCH-010-WC-1-1",
+        "SCH-010-WC-1-2",
+        "SCH-010-OFF-1",
+        "SCH-010-WC-2-1",
+        "SCH-010-WC-2-2",
+        "SCH-010-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:00",
+        "siteVacantFrom": "19:30",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-011",
+      "name": "Simulation School 11",
+      "buildingId": "BLD-011",
+      "floorCount": 5,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-011",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "operatorIds": [
+        "SCH-011-OP-1",
+        "SCH-011-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-011-COR-1",
+        "SCH-011-COR-2",
+        "SCH-011-COR-3",
+        "SCH-011-COR-4",
+        "SCH-011-COR-5",
+        "SCH-011-WC-1-1",
+        "SCH-011-WC-1-2",
+        "SCH-011-OFF-1",
+        "SCH-011-WC-2-1",
+        "SCH-011-WC-2-2",
+        "SCH-011-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:15",
+        "siteVacantFrom": "19:45",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-012",
+      "name": "Simulation School 12",
+      "buildingId": "BLD-012",
+      "floorCount": 6,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-012",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "operatorIds": [
+        "SCH-012-OP-1",
+        "SCH-012-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-012-COR-1",
+        "SCH-012-COR-2",
+        "SCH-012-COR-3",
+        "SCH-012-COR-4",
+        "SCH-012-COR-5",
+        "SCH-012-COR-6",
+        "SCH-012-WC-1-1",
+        "SCH-012-WC-1-2",
+        "SCH-012-OFF-1",
+        "SCH-012-WC-2-1",
+        "SCH-012-WC-2-2",
+        "SCH-012-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:30",
+        "siteVacantFrom": "20:00",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-013",
+      "name": "Simulation School 13",
+      "buildingId": "BLD-013",
+      "floorCount": 4,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-013",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "operatorIds": [
+        "SCH-013-OP-1",
+        "SCH-013-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-013-COR-1",
+        "SCH-013-COR-2",
+        "SCH-013-COR-3",
+        "SCH-013-COR-4",
+        "SCH-013-WC-1-1",
+        "SCH-013-WC-1-2",
+        "SCH-013-OFF-1",
+        "SCH-013-WC-2-1",
+        "SCH-013-WC-2-2",
+        "SCH-013-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:00",
+        "siteVacantFrom": "19:30",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-014",
+      "name": "Simulation School 14",
+      "buildingId": "BLD-014",
+      "floorCount": 5,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-014",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "operatorIds": [
+        "SCH-014-OP-1",
+        "SCH-014-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-014-COR-1",
+        "SCH-014-COR-2",
+        "SCH-014-COR-3",
+        "SCH-014-COR-4",
+        "SCH-014-COR-5",
+        "SCH-014-WC-1-1",
+        "SCH-014-WC-1-2",
+        "SCH-014-OFF-1",
+        "SCH-014-WC-2-1",
+        "SCH-014-WC-2-2",
+        "SCH-014-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:15",
+        "siteVacantFrom": "19:45",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-015",
+      "name": "Simulation School 15",
+      "buildingId": "BLD-015",
+      "floorCount": 6,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-015",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "operatorIds": [
+        "SCH-015-OP-1",
+        "SCH-015-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-015-COR-1",
+        "SCH-015-COR-2",
+        "SCH-015-COR-3",
+        "SCH-015-COR-4",
+        "SCH-015-COR-5",
+        "SCH-015-COR-6",
+        "SCH-015-WC-1-1",
+        "SCH-015-WC-1-2",
+        "SCH-015-OFF-1",
+        "SCH-015-WC-2-1",
+        "SCH-015-WC-2-2",
+        "SCH-015-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:30",
+        "siteVacantFrom": "20:00",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-016",
+      "name": "Simulation School 16",
+      "buildingId": "BLD-016",
+      "floorCount": 4,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-016",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "operatorIds": [
+        "SCH-016-OP-1",
+        "SCH-016-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-016-COR-1",
+        "SCH-016-COR-2",
+        "SCH-016-COR-3",
+        "SCH-016-COR-4",
+        "SCH-016-WC-1-1",
+        "SCH-016-WC-1-2",
+        "SCH-016-OFF-1",
+        "SCH-016-WC-2-1",
+        "SCH-016-WC-2-2",
+        "SCH-016-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:00",
+        "siteVacantFrom": "19:30",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-017",
+      "name": "Simulation School 17",
+      "buildingId": "BLD-017",
+      "floorCount": 5,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-017",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "operatorIds": [
+        "SCH-017-OP-1",
+        "SCH-017-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-017-COR-1",
+        "SCH-017-COR-2",
+        "SCH-017-COR-3",
+        "SCH-017-COR-4",
+        "SCH-017-COR-5",
+        "SCH-017-WC-1-1",
+        "SCH-017-WC-1-2",
+        "SCH-017-OFF-1",
+        "SCH-017-WC-2-1",
+        "SCH-017-WC-2-2",
+        "SCH-017-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:15",
+        "siteVacantFrom": "19:45",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-018",
+      "name": "Simulation School 18",
+      "buildingId": "BLD-018",
+      "floorCount": 6,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-018",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "operatorIds": [
+        "SCH-018-OP-1",
+        "SCH-018-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-018-COR-1",
+        "SCH-018-COR-2",
+        "SCH-018-COR-3",
+        "SCH-018-COR-4",
+        "SCH-018-COR-5",
+        "SCH-018-COR-6",
+        "SCH-018-WC-1-1",
+        "SCH-018-WC-1-2",
+        "SCH-018-OFF-1",
+        "SCH-018-WC-2-1",
+        "SCH-018-WC-2-2",
+        "SCH-018-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:30",
+        "siteVacantFrom": "20:00",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-019",
+      "name": "Simulation School 19",
+      "buildingId": "BLD-019",
+      "floorCount": 4,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-019",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "operatorIds": [
+        "SCH-019-OP-1",
+        "SCH-019-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-019-COR-1",
+        "SCH-019-COR-2",
+        "SCH-019-COR-3",
+        "SCH-019-COR-4",
+        "SCH-019-WC-1-1",
+        "SCH-019-WC-1-2",
+        "SCH-019-OFF-1",
+        "SCH-019-WC-2-1",
+        "SCH-019-WC-2-2",
+        "SCH-019-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:00",
+        "siteVacantFrom": "19:30",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-020",
+      "name": "Simulation School 20",
+      "buildingId": "BLD-020",
+      "floorCount": 5,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-020",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "operatorIds": [
+        "SCH-020-OP-1",
+        "SCH-020-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-020-COR-1",
+        "SCH-020-COR-2",
+        "SCH-020-COR-3",
+        "SCH-020-COR-4",
+        "SCH-020-COR-5",
+        "SCH-020-WC-1-1",
+        "SCH-020-WC-1-2",
+        "SCH-020-OFF-1",
+        "SCH-020-WC-2-1",
+        "SCH-020-WC-2-2",
+        "SCH-020-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:15",
+        "siteVacantFrom": "19:45",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-021",
+      "name": "Simulation School 21",
+      "buildingId": "BLD-021",
+      "floorCount": 6,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-021",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "operatorIds": [
+        "SCH-021-OP-1",
+        "SCH-021-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-021-COR-1",
+        "SCH-021-COR-2",
+        "SCH-021-COR-3",
+        "SCH-021-COR-4",
+        "SCH-021-COR-5",
+        "SCH-021-COR-6",
+        "SCH-021-WC-1-1",
+        "SCH-021-WC-1-2",
+        "SCH-021-OFF-1",
+        "SCH-021-WC-2-1",
+        "SCH-021-WC-2-2",
+        "SCH-021-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:30",
+        "siteVacantFrom": "20:00",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-022",
+      "name": "Simulation School 22",
+      "buildingId": "BLD-022",
+      "floorCount": 4,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-022",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "operatorIds": [
+        "SCH-022-OP-1",
+        "SCH-022-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-022-COR-1",
+        "SCH-022-COR-2",
+        "SCH-022-COR-3",
+        "SCH-022-COR-4",
+        "SCH-022-WC-1-1",
+        "SCH-022-WC-1-2",
+        "SCH-022-OFF-1",
+        "SCH-022-WC-2-1",
+        "SCH-022-WC-2-2",
+        "SCH-022-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:00",
+        "siteVacantFrom": "19:30",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-023",
+      "name": "Simulation School 23",
+      "buildingId": "BLD-023",
+      "floorCount": 5,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-023",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "operatorIds": [
+        "SCH-023-OP-1",
+        "SCH-023-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-023-COR-1",
+        "SCH-023-COR-2",
+        "SCH-023-COR-3",
+        "SCH-023-COR-4",
+        "SCH-023-COR-5",
+        "SCH-023-WC-1-1",
+        "SCH-023-WC-1-2",
+        "SCH-023-OFF-1",
+        "SCH-023-WC-2-1",
+        "SCH-023-WC-2-2",
+        "SCH-023-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:15",
+        "siteVacantFrom": "19:45",
+        "source": "simulation_assumption"
+      }
+    },
+    {
+      "schoolId": "SCH-024",
+      "name": "Simulation School 24",
+      "buildingId": "BLD-024",
+      "floorCount": 6,
+      "timezone": "Asia/Singapore",
+      "lift": {
+        "liftId": "LIFT-024",
+        "capacityRobots": 1,
+        "autonomousAccessEnabled": true,
+        "servedFloors": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "operatorIds": [
+        "SCH-024-OP-1",
+        "SCH-024-OP-2"
+      ],
+      "zoneIds": [
+        "SCH-024-COR-1",
+        "SCH-024-COR-2",
+        "SCH-024-COR-3",
+        "SCH-024-COR-4",
+        "SCH-024-COR-5",
+        "SCH-024-COR-6",
+        "SCH-024-WC-1-1",
+        "SCH-024-WC-1-2",
+        "SCH-024-OFF-1",
+        "SCH-024-WC-2-1",
+        "SCH-024-WC-2-2",
+        "SCH-024-OFF-2"
+      ],
+      "timetable": {
+        "studentStart": "07:30",
+        "lessonsEnd": "14:00",
+        "activitiesEnd": "18:30",
+        "siteVacantFrom": "20:00",
+        "source": "simulation_assumption"
+      }
+    }
+  ]
+}

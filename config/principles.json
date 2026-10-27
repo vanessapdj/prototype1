@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "revision": 1,
+  "principles": [
+    {
+      "id": "useful-work",
+      "enabled": true,
+      "text": "Prioritise useful cleaning coverage and the manpower gap over robot activity alone."
+    },
+    {
+      "id": "human-effort",
+      "enabled": true,
+      "text": "Make preparation, recovery, supervision and manual fallback effort visible."
+    },
+    {
+      "id": "local-first",
+      "enabled": true,
+      "text": "Handle routine issues locally within agreed policy and escalate material exceptions."
+    },
+    {
+      "id": "no-phantom-staff",
+      "enabled": true,
+      "text": "Do not assume cleaners or vendor staff are available outside their configured working arrangements."
+    },
+    {
+      "id": "evidence",
+      "enabled": true,
+      "text": "Separate robot recovery, task completion and verified cleaning quality."
+    }
+  ]
+}

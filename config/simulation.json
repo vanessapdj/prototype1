@@ -1,0 +1,115 @@
+{
+  "version": "live-hq-0.2",
+  "dataSource": "simulation",
+  "timezone": "Asia/Singapore",
+  "startDate": "2027-01-04",
+  "defaultDays": 7,
+  "twoYearEndExclusive": "2029-01-04",
+  "randomSeed": 2027,
+  "calendar": {
+    "workingWeekdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "closedDates": [],
+    "dateOverrides": {},
+    "note": "Synthetic weekday calendar, NOT official MOE terms or Singapore public holidays. Add school closures and overrides before treating long-horizon outputs as forecasts."
+  },
+  "staff": {
+    "shiftStart": "07:00",
+    "shiftEnd": "16:00",
+    "operatorsPerSchool": 2,
+    "breaks": [
+      [
+        "12:00",
+        "12:30"
+      ],
+      [
+        "12:30",
+        "13:00"
+      ]
+    ],
+    "toiletPrepMinutes": 8,
+    "toiletPostMinutes": 10,
+    "toiletTransferMinutes": 5,
+    "floorPreflightTime": "15:10",
+    "floorPreflightMinutes": 15,
+    "nightRecoveryPolicy": "next_staffed_day",
+    "supervision": "Operator needed for preparation, transfer, recovery and post-cleaning; continuous technician attendance is NOT assumed."
+  },
+  "schedule": {
+    "toiletRounds": [
+      "07:30",
+      "10:30",
+      "13:30"
+    ],
+    "floorStart": "20:00",
+    "floorDeadlineNextDay": "05:30",
+    "officeStart": "22:00",
+    "officeDeadline": "23:55",
+    "officeWeekdays": [
+      1,
+      4
+    ],
+    "siteVacantFrom": "19:30",
+    "toiletWindowStart": "07:00",
+    "toiletWindowEnd": "16:00",
+    "toiletBlockSpacingMinutes": 55,
+    "floorZoneSpacingMinutes": 75
+  },
+  "model": {
+    "toiletMinutesPerBlock": 30,
+    "floorProductivitySqmPerHour": 450,
+    "officeProductivitySqmPerHour": 240,
+    "liftTripMinutes": 4,
+    "chargingSocPerHour": 0.18,
+    "floorSocUsedPerHour": 0.15,
+    "toiletSocUsedPerHour": 0.2,
+    "minimumStartSoc": 0.25,
+    "floorFailureProbabilityPerJob": 0.04,
+    "toiletFailureProbabilityPerJob": 0.12,
+    "toiletRecoveryMinutes": 20,
+    "nightRecoveryMinutes": 25,
+    "manualFloorFallbackMinutes": 35,
+    "lateOccupancyProbabilityPerNight": 0.08,
+    "lateOccupancyMinutes": 45,
+    "liftDelayProbabilityPerTrip": 0.06,
+    "liftExtraDelayMinutes": 12,
+    "returnToDockMinutes": 5,
+    "includeDemonstrationEvents": true,
+    "minimumReserveSoc": 0.08,
+    "cleaningSpeedMps": 0.15,
+    "recoveryBatteryServiceThresholdSoc": 0.1,
+    "recoveryBatteryServiceSoc": 0.4
+  },
+  "assumptions": [
+    "No extra office robots: the 48 floor robots also cover selected office floors.",
+    "Two operators per school are a modeling resource allocation, not observed total cleaner headcount. Other cleaning staff and their work are outside this first model.",
+    "Four toilet blocks per school are pilot coverage, not every toilet in a school.",
+    "Floor robots assume automated docking and sufficient onboard water for scheduled work; daytime preflight is required.",
+    "Night lift access is simulated with one shared lift per school, not a live lift command or validated safety arrangement.",
+    "Probability rates, dimensions, speeds and consumptions are tunable illustrative values, not measured vendor reliability.",
+    "Robot coverage excludes bowls or fixtures outside modeled capability and all other complementary manual duties."
+  ],
+  "timetable": {
+    "studentStart": "07:30",
+    "lessonsEnd": "14:00",
+    "activitiesEnd": "18:30",
+    "siteVacantFrom": "19:30",
+    "note": "Illustrative timetable, not an actual MOE school timetable."
+  },
+  "demonstrations": [
+    {
+      "day": 0,
+      "schoolId": "SCH-001",
+      "robotSuffixes": [
+        "T1",
+        "T2"
+      ],
+      "taskKey": "T0-0"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "revision": 1,
+  "routing": {
+    "localRoutingEnabled": true,
+    "rules": [
+      {
+        "id": "routine-staffed-recovery",
+        "title": "Routine staffed-shift recovery stays local",
+        "enabled": true,
+        "priority": 10,
+        "conditions": [
+          {
+            "fact": "staffed",
+            "operator": "==",
+            "value": true
+          },
+          {
+            "fact": "operatorsOnShift",
+            "operator": ">",
+            "value": 0
+          },
+          {
+            "fact": "schoolFaultsToday",
+            "operator": "<",
+            "value": 2
+          },
+          {
+            "fact": "exceptionType",
+            "operator": "==",
+            "value": "robot_stopped"
+          }
+        ],
+        "route": "local"
+      },
+      {
+        "id": "hq-default",
+        "title": "Other interruptions go to HQ",
+        "enabled": true,
+        "priority": 999,
+        "conditions": [],
+        "route": "hq"
+      }
+    ]
+  },
+  "execution": {
+    "requireStaffForToilet": true,
+    "requireVacancyForFloor": true,
+    "requireFloorPreflight": true,
+    "outsideWindowRecovery": "manual_fallback",
+    "liftEscalationMinutes": 10,
+    "faultAssessmentProgressPercent": 50
+  },
+  "vendor": {
+    "shiftStart": "08:00",
+    "shiftEnd": "17:00",
+    "parallelTickets": 1
+  }
+}

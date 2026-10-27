@@ -1,0 +1,414 @@
+{
+  "version": "live-hq-0.2",
+  "currentDecisionProvider": "rules",
+  "agents": [
+    {
+      "agentId": "school-agent-sch-001",
+      "schoolId": "SCH-001",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-001",
+        "buildingId": "BLD-001"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-002",
+      "schoolId": "SCH-002",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-002",
+        "buildingId": "BLD-002"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-003",
+      "schoolId": "SCH-003",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-003",
+        "buildingId": "BLD-003"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-004",
+      "schoolId": "SCH-004",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-004",
+        "buildingId": "BLD-004"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-005",
+      "schoolId": "SCH-005",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-005",
+        "buildingId": "BLD-005"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-006",
+      "schoolId": "SCH-006",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-006",
+        "buildingId": "BLD-006"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-007",
+      "schoolId": "SCH-007",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-007",
+        "buildingId": "BLD-007"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-008",
+      "schoolId": "SCH-008",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-008",
+        "buildingId": "BLD-008"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-009",
+      "schoolId": "SCH-009",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-009",
+        "buildingId": "BLD-009"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-010",
+      "schoolId": "SCH-010",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-010",
+        "buildingId": "BLD-010"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-011",
+      "schoolId": "SCH-011",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-011",
+        "buildingId": "BLD-011"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-012",
+      "schoolId": "SCH-012",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-012",
+        "buildingId": "BLD-012"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-013",
+      "schoolId": "SCH-013",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-013",
+        "buildingId": "BLD-013"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-014",
+      "schoolId": "SCH-014",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-014",
+        "buildingId": "BLD-014"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-015",
+      "schoolId": "SCH-015",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-015",
+        "buildingId": "BLD-015"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-016",
+      "schoolId": "SCH-016",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-016",
+        "buildingId": "BLD-016"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-017",
+      "schoolId": "SCH-017",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-017",
+        "buildingId": "BLD-017"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-018",
+      "schoolId": "SCH-018",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-018",
+        "buildingId": "BLD-018"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-019",
+      "schoolId": "SCH-019",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-019",
+        "buildingId": "BLD-019"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-020",
+      "schoolId": "SCH-020",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-020",
+        "buildingId": "BLD-020"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-021",
+      "schoolId": "SCH-021",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-021",
+        "buildingId": "BLD-021"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-022",
+      "schoolId": "SCH-022",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-022",
+        "buildingId": "BLD-022"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-023",
+      "schoolId": "SCH-023",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-023",
+        "buildingId": "BLD-023"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    },
+    {
+      "agentId": "school-agent-sch-024",
+      "schoolId": "SCH-024",
+      "role": "school_operations_coordinator",
+      "contextScope": {
+        "schoolId": "SCH-024",
+        "buildingId": "BLD-024"
+      },
+      "runtimeController": "SchoolAgent",
+      "currentDecisionProvider": "rules",
+      "modelConnection": null,
+      "instructionsFile": "school-agent-instructions.md",
+      "futureProposalSchema": "../schema/agent-proposal.schema.json",
+      "note": "Scope metadata for a self-contained rule-driven school controller. No external AI service is required.",
+      "principlesFile": "../config/principles.json",
+      "rulesFile": "../config/rules.json"
+    }
+  ]
+}
